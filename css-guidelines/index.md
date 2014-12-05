@@ -1,5 +1,6 @@
 ---
 title: CSS Guidelines
+resource_prefix: ../
 ---
 
 # CSS guidelines
