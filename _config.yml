@@ -1,0 +1,7 @@
+highlighter: pygments
+defaults:
+  -
+    values:
+      scope:
+        path: "" # the following values apply to all pages
+      layout: default
