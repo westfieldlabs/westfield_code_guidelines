@@ -10,7 +10,7 @@ A styles and standards documentation effort to quickly ramp-up anyone writing co
 [Coffeescript guidelines](https://github.com/polarmobile/coffeescript-style-guide)
 
 ## CSS
-[CSS guidelines](css/)
+[CSS guidelines](/css-guidelines)
 
 ## HTML
 TBC
