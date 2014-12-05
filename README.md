@@ -17,4 +17,4 @@ To start a local Jekyll server, run:
 
     bundle exec jekyll serve
 
-This will make the style guide available at http://localhost:4000/
+This will make the style guide available at [http://localhost:4000/](http://localhost:4000/)
