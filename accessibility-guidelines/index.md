@@ -14,6 +14,8 @@ The guidelines below are meant to be a high level overview of how we are strivin
 
 ## Guiding Principles of Accessibility (POUR)
 
+TODO: Expand on guiding principles
+
 The four main guiding principles of accessibility in WCAG 2.0 are:
 
 * Perceivable
@@ -53,7 +55,7 @@ All templates should include a skip link to allow assistive technologies to go d
 ...
 
 <!-- The skip link's href should match the id of the main content container -->
-<main id="main role="main"></main>
+<main id="main" role="main"></main>
 {% endhighlight %}
 
 ### Provide meaningful alt text
@@ -106,6 +108,8 @@ It is important to remember that semantic markup means behavior and not visuals.
 
 ## WAI-ARIA
 
+TODO: rewrite intro to ARIA
+
 > WAI-ARIA is a specification that provides a means of describing roles, states, and properties for custom widgets so that they are recognisable and usable by > assistive technology users. WAI-ARIA also provides a mechanism to ensure that > users of assistive technologies are aware of updates in the application.
 
 ### Landmark Roles
@@ -120,7 +124,7 @@ Document landmark roles were defined to give structure to a page and to help ass
 
 ### Form Accessibility
 
-##### Required fields
+#### Required fields
 The `aria-required` property indicates that user input is required on the control before the form can successfully be submitted.
 
 {% highlight html %}
@@ -131,6 +135,8 @@ The `aria-required` property indicates that user input is required on the contro
 *Additional Reading: [Introduction to WAI-ARIA](https://dev.opera.com/articles/introduction-to-wai-aria/)*
 
 ## Keyboard Accessibility
+
+TODO: Keyboard Accessibility minimum standards
 
 *Additional Reading: [WebAim Keyboard Accessibility](http://webaim.org/techniques/keyboard/)*
 
@@ -151,23 +157,33 @@ Check your color selections using these resources:
 
 ## JavaScript
 
-Progressive enhancement
+TODO: Progressive enhancement
 
 Some components require JavaScript, ensure you can still access the content after JS has been turned off.
 
 * Provide keyboard event handlers in addition to mouse event handlers when possible.
 
 ### Tab index
-You should never set custom tab index's.
+
+TODO: You should never set custom tab index's.
 JS tab index -1/0
 
 ## CSS
 
 ### Helper Classes
+
+TODO: More about helpers, and specify these are specific examples to aurora.
+
 There are a few helper classes you can use throughout to help make your site accessible.
 
 * `.u-hide` hides elements from both screen readers and the document flow.
 * `.u-hide-visually` hides elements only visually but are still available to screen readers.
+
+***
+
+## Testing
+
+TODO: Testing tips
 
 ***
 
