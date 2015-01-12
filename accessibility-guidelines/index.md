@@ -10,6 +10,16 @@ Web accessibility is the practice of making websites and web applications usable
 
 The guidelines below are meant to be a high level overview of how we are striving to make our projects more accessible, it is not meant to be used as an all inclusive checklist.
 
+## Regional Standards
+
+As we need to meet the minimum standards for multiple regions we will develop to at least the minimum requirements of WCAG 2.0 AA compliance. The specific standard requirments by applicable region are listed below:
+
+AU/NZ: **Disability Compliance Act** - states that “Non-government websites and web resources whose development commences after July 1 2010 should comply with [WCAG 2.0](http://www.w3.org/TR/WCAG20/) to a minimum of AA-Level conformance
+
+UK: **The Equality Act 2010 (EQA)**  is the legal reference in the UK for Discrimination and it entered into force on 1 October 2010 with additional provisions for recruitment in April 2011.  Compliance to Priority 1 (A) is mandatory and we should have at least WCAG 2.0 - Priority 2 (AA) compliance
+
+US: **[Section 508 of The Rehabilitation Act](http://www.section508.gov/)**
+
 ***
 
 ## Guiding Principles of Accessibility (POUR)
