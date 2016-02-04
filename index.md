@@ -23,6 +23,4 @@ TBC
 
 ## Ruby
 
-Use 2 spaces for indentation, no tabs.
-
-Wrap lines at 100 columns.
+[Ruby guidelines](ruby-guidelines)

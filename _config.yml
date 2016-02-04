@@ -1,6 +1,6 @@
-# Syntax highlighting via Pygments
-highlighter: pygments
-
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
 sass:
   sass_dir: _scss
